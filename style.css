@@ -1,0 +1,101 @@
+
+
+.bg-green {
+    background-color: #a2c11c;
+}
+.top-bar {
+    padding: 6px 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+.email-left{
+   font-size: 0.8em;
+   
+  
+}
+.icons-right{
+   font-size: 0.8em;
+
+}
+
+.top-bar a:hover {
+    color: black !important;
+}
+
+.ibs {
+    color: #a2c11c;
+    font-size: 1.5em;
+   
+}
+
+.navi{
+    color: black;
+    font-size: 1.5em;
+}
+
+.nav-link {
+    color: black !important;
+    /* font-size:medium; */
+}
+
+.nav-link:hover {
+    color: #a2c11c !important;
+}
+
+.container-img {
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-image: url('calo1.webp');
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(5px);
+    -webkit-filter: blur(5px); */
+}
+
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: medium;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+    z-index: 1; 
+}
+
+.text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    background-color: rgba(0, 0, 0, 0.247); 
+    z-index: -1;
+}
+
+.text:hover{
+    background-color: rgba(0, 0, 0, 0.589);
+    cursor: pointer;
+    color:#a2c11c;
+}
+  
+
+  /*IBS Guide
+    IBS Navigator
+    IBS Helper
+    IBS Wellness
+    IBS Relief Hub
+    IBS Care Plan
+    IBS Diet Expert 
+    IBS Pathway
+    IBS Diet Companion
+    IBS Solutions
+    IBS Advisor */
+
